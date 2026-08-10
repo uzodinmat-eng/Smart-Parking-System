@@ -1,0 +1,41 @@
+# Arduino / PlatformIO build output
+build/
+dist/
+.pio/
+
+# Compiled Object files
+*.o
+*.so
+*.elf
+*.hex
+*.bin
+
+# Packages
+*.zip
+*.tar.gz
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.code-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Arduino library manager
+libraries/
+
+# Sensitive configuration
+secrets.h
+config.h
+credentials.h
+
+# Logs
+*.log
+
+# Debug
+debug/
