@@ -97,10 +97,6 @@ Install the following libraries in Arduino IDE or PlatformIO:
 2. Add 4 LED widgets on virtual pins **V4**, **V5**, **V6**, and **V7**
 3. Each LED represents a parking slot (Slot 1 → V4, Slot 2 → V5, etc.)
 
-## Security Note
-
-⚠️ **Important**: The current code contains hardcoded WiFi credentials and Blynk authentication tokens. Before pushing to a public repository, move these values to a separate `secrets.h` file and add it to `.gitignore`.
-
 ## License
 
 This project is open source and available under the MIT License.
